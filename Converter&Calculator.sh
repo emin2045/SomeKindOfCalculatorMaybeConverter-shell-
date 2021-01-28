@@ -356,7 +356,7 @@ do
 			DivisionSign10 $variable1 $variable3 >> $2
 			fi
 
-	elif test "$variable2" = "x" ## crossing operation ## hocam * işaretini variable olarak tutamadım o yüzden * yerine x olarak girerseniz doğru sonucu verecektir
+	elif test "$variable2" = "x" ## crossing operation ## * işaretini variable olarak tutamadım o yüzden * yerine x olarak girerseniz doğru sonucu verecektir
 		then
 			if test "${variable1:0:2}" = "0b"
 			then
